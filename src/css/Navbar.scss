@@ -1,0 +1,9 @@
+.logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 30px;
+  //padding-top: 20px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
