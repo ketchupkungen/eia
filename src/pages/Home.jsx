@@ -11,10 +11,10 @@ class Home extends Component {
 		return (
 			<div>
 				<Navbar />
-				<Jumbotron title='Welcome' subtitle="Stuff and things" />
+				<Jumbotron title='Welcome!' subtitle="Stuff and things" />
 
 				<div className="container" >
-					<h2>Welcome!</h2>
+					<h2>Stuff</h2>
 
 					<p>Bacon ipsum dolor amet tongue beef doner alcatra. Venison pancetta jerky, pork chop andouille t-bone bresaola. Fatback shoulder filet mignon kielbasa biltong cow ball tip. Rump tongue leberkas meatball picanha. Sirloin sausage jerky chicken. Fatback ham hock andouille shank boudin ground round. Burgdoggen ribeye kielbasa tongue swine.</p>
 					<p>Bresaola pancetta ribeye, shankle jowl frankfurter short ribs boudin kevin porchetta pork belly. Andouille shankle picanha meatball porchetta ground round pork belly shank biltong cupim kielbasa fatback beef capicola. Salami burgdoggen prosciutto drumstick, filet mignon ham hock spare ribs andouille swine ribeye chuck beef ribs. Strip steak turkey ground round capicola jowl.</p>

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 // Components
 import Navbar from '../components/Navbar.jsx';
+import Jumbotron from '../components/Jumbotron.jsx';
 import Footer from '../components/Footer.jsx';
 
 class About extends Component {
@@ -10,8 +11,8 @@ class About extends Component {
 		return (
 			<div>
 				<Navbar />
-
-				<div className="container" style={{marginTop:'150px'}}>
+				<Jumbotron title='About us' subtitle="Things about us that you really need to know" />
+				<div className="container">
 					<h2>About</h2>
 
 					<p>Bacon ipsum dolor amet tongue beef doner alcatra. Venison pancetta jerky, pork chop andouille t-bone bresaola. Fatback shoulder filet mignon kielbasa biltong cow ball tip. Rump tongue leberkas meatball picanha. Sirloin sausage jerky chicken. Fatback ham hock andouille shank boudin ground round. Burgdoggen ribeye kielbasa tongue swine.</p>

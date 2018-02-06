@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import ExcelImport from './pages/ExcelImport.jsx';
+import Login from './pages/Login.jsx';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About} />
             <Route exact path='/excelimport' component={ExcelImport} />
+            <Route exact path='/login' component={Login} />
           </div>
         </Router>
       </div>
